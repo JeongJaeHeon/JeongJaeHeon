@@ -1,0 +1,24 @@
+1 <!DOCTYPE html> 
+2 <html><head><title>함수 만들기</title> 
+3 <script> 
+4     function gugudan(n) { // 함수 작성 
+5     var m = parseInt(n); // 문자열 n을 숫자로 바꿈 
+6     if(isNaN(m) || m < 1 || m > 9) { 
+7     alert("잘못입력하셨습니다."); 
+8     return; 
+9     } 
+10     for(var i=1; i<=9; i++) { // i는 1~9까지 반복 
+11         document.write(m + "x" + i + "=" + m*i + "<br>"); 
+12     } 
+13     } 
+14 </script> 
+15 </head> 
+16 <body> 
+17     <h3>구구단 출력 함수 만들기</h3> 
+18     <hr> 
+19     <script> 
+20         var n = prompt("구구단 몇 단을 원하세요", ""); // n은 문자열 
+21         gugudan(n); // 함수 호출 
+22     </script> 
+23 </body> 
+24 </html 
