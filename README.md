@@ -5,13 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>자기개발 홈페이지</title>
-    <style>
-    section,aside{float:left;height:960px;padding:0px}
-    section{width:70%;background:white}
-    aside{width:30%;background:#FBCED1}
-    aside ul{list-style:none;padding:0}
-    aside ul li{clear:both;float:left;margin-top:10px}
-</style>
 </head>
 <body>
     <section>
